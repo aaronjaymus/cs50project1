@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block heading %}
+    Welcome to Book Reviews!
+{% endblock %}
+
+{% block body %}
+    <p>
+        Review your favorite books here. 
+    </p>
+
+    <a href="{{ url_for('login') }}">Please login here</a>
+{% endblock %}
